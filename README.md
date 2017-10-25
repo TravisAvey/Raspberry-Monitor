@@ -14,7 +14,7 @@ I list the last few as optional, because you can use this with just a browser on
 
 ***
 
-## Set up Raspberry Pi
+## Set up Raspberry Pi && Motion
 
 ### Web Cam
 Connect your web cam to your Pi, depending on your model you may need to use a powered usb hub as the PI's power source is only 5 volts.
@@ -45,13 +45,11 @@ Note: This is the IP address you got from `ifconfig`.  It will prompt for the pa
 
 ### Update the Pi
 Now you should update your Pi with:
-
-`$ sudo apt rpi-update`
-
-`$ sudo apt update`
-
-`$ sudo apt upgrade`
-
+```bash
+$ sudo apt rpi-update
+$ sudo apt update
+$ sudo apt upgrade
+```
 This will ensure your Pi is up to date with all the current software.
 
 ## Motion
@@ -76,10 +74,10 @@ This allows Motion to run as a daemon, to run in the background
 
 Set the height and width to your desires.
 
-`width 640`
-
-`height 480`
-
+```
+width 640
+height 480
+```
 
 Set the framerate to a desired rate
 
