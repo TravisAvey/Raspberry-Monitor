@@ -23,20 +23,20 @@ Connect your web cam to your Pi, depending on your model you may need to use a p
 ### IP Address
 First you'll need your Pi's ip address:
 
-```bash
+```shell
 $ ifconfig
 ```
 
 ### Enable SSH
 You'll also need to enable SSH; it will most likely be disabled by default.
 
-```bash
+```shell
 $ sudo raspi-config
 ```
 
 ### Update the Pi
 Now you should update your Pi with:
-```bash
+```shell
 $ sudo apt rpi-update
 $ sudo apt update
 $ sudo apt upgrade
@@ -51,7 +51,7 @@ This will ensure your Pi is up to date with all the current software.
 
 Run:
 
-```bash
+```shell
 git clone http://github.com/sackmotion/motion 
 cd motion
 ./configure
@@ -81,7 +81,7 @@ The last 2 allow the stream to be viewed from anywhere, not just local host.
 
 Save and close the file with your favorite editor such as vim.  Now we can start Motion and view it in your browser.
 
-```bash
+```shell
 $ sudo service start motion
 ```
 
