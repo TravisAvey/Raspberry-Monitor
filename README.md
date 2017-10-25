@@ -40,6 +40,8 @@ Now you should update your Pi with:
 $ sudo apt rpi-update
 $ sudo apt update
 $ sudo apt upgrade
+$ sudo apt install git
+$ sudo apt install libjpeg-dev
 ```
 This will ensure your Pi is up to date with all the current software.
 
@@ -50,7 +52,12 @@ This will ensure your Pi is up to date with all the current software.
 Run:
 
 ```bash
-$ sudo apt install motion
+git clone http://github.com/sackmotion/motion 
+cd motion
+./configure
+make
+sudo make install 
+sudo mv /usr/local/etc/motion-dist.conf /usr/local/etc/motion.conf 
 ```
 
 press y to accept and install.
