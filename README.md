@@ -1,5 +1,7 @@
 # Welcome to the Raspberry-Monitor Repo!
 
+### This is an ongoing project.  Currently working on developing the Android/iOS applications as of Jan, 2018.
+
 This is a repository on the basics of getting your Raspberry Pi set up with Motion, then configuring port forwarding to view the stream from anywhere in the world.  This will allow you to view your webcam via Android, iOS, or even just a web browser.  This guide will aide you in setting up your Pi with motion and optionally create an Android or iOS app to view.  Also, you can optionally send audio from your Android or iOS device to be played on the Pi.
 
 ### Requirements
