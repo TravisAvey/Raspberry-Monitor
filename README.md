@@ -1,19 +1,14 @@
 # Welcome to the Raspberry-Monitor Repo!
 
-### This is an ongoing project.  Currently working on developing the Android/iOS applications as of Jan, 2018.
+### This is an ongoing project.  Currently working on developing the iOS application as of March, 2018.
 
-This is a repository on the basics of getting your Raspberry Pi set up with Motion, then configuring port forwarding to view the stream from anywhere in the world.  This will allow you to view your webcam via Android, iOS, or even just a web browser.  This guide will aide you in setting up your Pi with motion and optionally create an Android or iOS app to view.  Also, you can optionally send audio from your Android or iOS device to be played on the Pi.
+This is a repository on the basics of getting your Raspberry Pi set up with Motion, then configuring port forwarding to view the stream from anywhere in the world.  This will allow you to view your webcam via Android, iOS, or even just a web browser.
 
 ### Requirements
 * Raspberry Pi or you can run on a linux distro
 * Web Cam
 * Internet Access
-* Optional: Access to your router with admin rights
-* Optional: Android Studio installed
-* Optional: A Mac with Xcode installed
-* Optional: Speakers
-
-I list the last few as optional, because you can use this with just a browser on your Local Area Network (LAN) nor do you need to send audio to be played on the Pi.
+* Access to your router with admin rights
 
 ***
 
@@ -93,5 +88,11 @@ Now you go to the IP address we found earlier with the port `8081` that is the d
 http:\\192.168.0.1:8081
 ```
 
-You should see a stream with what your web cam is pointing at.  If you need to view this from anywhere on the web or in an Android/iOS app, then you can stop here and enjoy having a Raspberry-Monitor for your house or a baby/puppy monitor.
+You should see a stream coming from your Raspberry PI's webcam in a web browser.
+
+### Port Forwarding
+
+To be able to view this stream from outside your LAN, you will need to set up port forwarding on your router.  I happen to be using Comcast at the time this was made, so I was only able to use a certain range of ports.  You will have to check your ISP and your router to check which ports you can use.
+
+I ended up using port 8081.
 
