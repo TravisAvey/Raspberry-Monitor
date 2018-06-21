@@ -166,6 +166,6 @@ $ sudo service apache2 restart
 
 To be able to view this stream from outside your LAN, you will need to set up port forwarding on your router.  I happen to be using Comcast at the time this was made, so I was only able to use a certain range of ports.  You will have to check your ISP and your router to check which ports you can use.  Change the port forwarding for the Pi's IP address to the port we used above.
 
-Find the outward facing IP address from your router using a service like whatismyipaddress.com.  Now with your public IP address and port forwarding enabled, you should see Motion's live feed at http://<Public-IP>:8081.  This will be the IP address to use in the Android App with the username and password set in above steps.
+Find the outward facing IP address from your router using a service like [What is my ip address](http://whatismyipaddress.com).  Now with your public IP address and port forwarding enabled, you should see Motion's live feed at http://<Public-IP>:8081.  This will be the IP address to use in the Android App with the username and password set in above steps.
 
 
